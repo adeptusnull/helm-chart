@@ -36,15 +36,21 @@ spec:
           ports:
             - name: http
               containerPort: 80
-              protocol: TCP
+          command: ["tail", "-f", "/dev/null"]
           livenessProbe:
-            httpGet:
-              path: /
-              port: http
+            exec:
+              command:
+              - cat
+              - /dev/null
+            initialDelaySeconds: 5
+            periodSeconds: 5
           readinessProbe:
-            httpGet:
-              path: /
-              port: http
+            exec:
+              command:
+              - cat
+              - /dev/null
+            initialDelaySeconds: 5
+            periodSeconds: 5
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
