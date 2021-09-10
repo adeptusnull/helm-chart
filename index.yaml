@@ -3,7 +3,7 @@ entries:
   testimage:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-09-10T01:08:54.938448-04:00"
+    created: "2021-09-10T01:31:27.84068-04:00"
     description: A Helm chart for Kubernetes. Contains busybox for testing network
       and access.
     digest: 2299be49693226e2d5bcf1e79b97a83c979fbaa89d96b10945003c3a82dd9d86
@@ -20,4 +20,4 @@ entries:
     urls:
     - testimage-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-10T01:08:54.937516-04:00"
+generated: "2021-09-10T01:31:27.839891-04:00"
