@@ -3,10 +3,10 @@ entries:
   testimage:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-09-10T01:31:27.84068-04:00"
+    created: "2021-09-11T00:16:13.050882-04:00"
     description: A Helm chart for Kubernetes. Contains busybox for testing network
       and access.
-    digest: 2299be49693226e2d5bcf1e79b97a83c979fbaa89d96b10945003c3a82dd9d86
+    digest: bbfbf55564206fdac4ba5e18d256cea17b8d6fff6b1433abd85c7b69be1a5f20
     icon: https://www.busybox.net/images/busybox1.png
     keywords:
     - testing
@@ -18,6 +18,6 @@ entries:
     name: testimage
     type: application
     urls:
-    - testimage-0.1.0.tgz
+    - https://adeptusnull.github.io/helm-chart/charts/testimage-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-10T01:31:27.839891-04:00"
+generated: "2021-09-11T00:16:13.049561-04:00"
